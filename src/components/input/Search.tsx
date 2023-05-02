@@ -33,7 +33,7 @@ const handleClear = () =>
         value= {activeQuery}
         onChange={handleSearch}
       />
-      <button className="clear" onClick={handleClear} >&#x2716;</button>
+      { activeQuery !== '' && <button className="clear" onClick={handleClear} >&#x2716;</button>}
     </div>
   );
 };
