@@ -1,0 +1,9 @@
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .search-warning {
+    margin: 20px 0;
+    color: white;
+  }

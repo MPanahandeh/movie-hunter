@@ -1,0 +1,12 @@
+.favorites {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.favorite_warning {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+}
